@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        body{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+           
+        }
+      
+        h1{
+            text-align:center;
+            margin-bottom: 5px;
+            position: fixed;
+            top:10px;
+            left: 40%;
+            right: 40%;                                 
+        }
+        .horizontal-line{
+            
+            width:60%;
+            margin: auto;
+            height: .5px;
+            background-color: green;
+            
+            position: fixed;
+            left: 20%;
+            right: 20%; 
+            
+        }
+        h2{
+            margin-top:70px;
+            margin-left:100px ;
+        }
+        .image-paragraph-container,  .flavour-price-container{
+            width:78%;
+
+            margin: auto;
+            margin-top: 5px;
+            font-size:18px;
+            display:flex;
+            justify-content: space-between;
+        }
+        .flavour-price-container{
+            padding-bottom: 100px;
+        }
+
+        .paragraph-container{
+            display:inline-block;
+            width: 50%;
+            
+            margin: auto 1px auto 20px;
+        }
+        .heading-text{
+            display: inline-block;
+            font-size: 22px;
+            margin-bottom:7px;
+        }
+        .flavour > ol{
+            margin-left: 20%;
+        }
+       
+        .price >table tr,td,th{
+            border: 1px solid black;
+
+        }
+        .price th,td{
+            padding: 5px 20px;
+        }
+        
+    </style>
+    <title>Blog Post</title>
+</head>
+<body>
+    <div class="header">
+        <h1>First Blog post</h1>
+    <hr class="horizontal-line" />
+    </div>
+    <h2>Brown Bread</h2>
+    <div class="image-paragraph-container">
+        <img src="./img/bown-bread.webp" alt="bread image" />
+        <p class="paragraph-container">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium ratione odit eum id autem sint, non ab nobis ipsum corrupti voluptatem maiores quos est eaque reprehenderit? Magni odio magnam officiis quis quia molestiae eos inventore sunt corrupti tempore. Aliquid soluta porro enim a reiciendis laudantium consequatur minus eaque quia deserunt? Maiores qui quo debitis error, architecto accusantium assumenda harum reprehenderit nesciunt incidunt minus iure enim accusamus blanditiis tempore. Numquam veritatis voluptatibus ipsam autem distinctio quidem perspiciatis accusamus repellat tempore nemo, ex quos enim blanditiis aspernatur hic sit necessitatibus eius! Placeat, veritatis magni! Incidunt sit reprehenderit enim deserunt, facere blanditiis sint!
+        </p>
+    </div>
+    <div class="flavour-price-container">
+        <div class="flavour">
+            <strong class="heading-text">Flavour avilable</strong>
+            <ol>
+                <li>Pineapple</li>
+                <li>Apple</li>
+                <li>Grapes</li>
+                <li>Banana</li>
+                <li>Normal</li>
+            </ol>
+        </div>
+        <div class="price">
+            <table>
+                <caption><strong class="heading-text">Bread Price</strong></caption>
+                <tr>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>100 gram</td>
+                    <td>100 $</td>
+                    
+                </tr>
+                <tr>
+                    <td>200 gram</td>
+                    <td>200 $</td>
+                    
+                </tr>
+                <tr>
+                    <td>300 gram</td>
+                    <td>300 $</td>
+                    
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
